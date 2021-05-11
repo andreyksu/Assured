@@ -28,8 +28,24 @@
 			<version>4.3.3</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- <dependency> <groupId>io.rest-assured</groupId> <artifactId>rest-assured-all</artifactId> 
-			<version>4.3.3</version> <scope>test</scope> </dependency> -->
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>4.3.3</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>4.3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured-all</artifactId>
+			<version>4.3.3</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
